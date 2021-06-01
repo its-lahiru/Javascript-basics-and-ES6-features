@@ -82,7 +82,7 @@ console.log(Array.from(myMap)) // Will show you exactly the same Array as kvArra
 // A succinct way to do the same, using the spread syntax
 console.log([...myMap]);
 // Or use the keys() or values() iterators, and convert them to an array
-console.log(Array.from(myMap.keys())) // ["key1", "key2"]
+console.log(Array.from(myMap.keys())); // ["key1", "key2"]
 
 
 
